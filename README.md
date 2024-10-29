@@ -22,8 +22,7 @@ A responsive and interactive portfolio website built with **ReactJS** to showcas
 
 ## 🚀 Live Demo
 
-Check out the live version of my portfolio here: [Your Portfolio Link](https://yourportfolio.com)
-
+Check out the live version of my portfolio here: https://rajivmuddukuppam5.netlify.app/
 ## 📂 Project Structure
 
 ```plaintext
