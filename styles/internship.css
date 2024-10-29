@@ -1,0 +1,67 @@
+/* internship.css */
+
+.i-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items horizontally */
+  }
+  
+  .i-img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .i-box {
+    width: 30%; /* Adjust width as needed for responsiveness */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+  }
+  .i-button {
+    width: 80%;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center;
+    cursor: pointer; /* Add cursor pointer for better UX */
+  }
+  
+  .i-h3 {
+    text-align: center;
+    color: darkblue;
+    font-size: 15px;
+    margin-top: 10px; /* Adjust spacing */
+  }
+  
+  .i-p {
+    text-align: center;
+    padding: 5px 15px;
+    font-family: 'Roboto', sans-serif; /* Use 'Roboto' with proper casing */
+    font-size: 15px; /* Increase font size for better readability */
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .i-container {
+      width: 90%; /* Adjust container width for smaller screens */
+    }
+  
+    .i-box {
+      width: 45%; /* Adjust box width for two columns on smaller screens */
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .i-box {
+      width: 100%; /* Adjust box width for full width on mobile screens */
+    }
+  }
+  

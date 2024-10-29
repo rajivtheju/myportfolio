@@ -1,0 +1,120 @@
+.li.li{
+    list-style-type: none;
+  }
+  .self{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+  .res{
+    margin: 10px;
+  }
+  .self1{
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+  }
+  .self2{
+   
+    width: 50%;
+    align-items: center;
+    align-content: center;
+  }
+  
+  #section3,#section2,#section1,#section4,#section5{
+   padding: 0px;
+  }
+  .self-img{
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  border-radius: 5px;
+  border-color: blueviolet;
+  border-width: 0px;
+  border-style: solid;
+  padding: 10px;
+  /* border-left: 10px solid orange;
+  border-bottom: 10px solid orange; */
+  background-color: rgba(128, 128, 128, 0.181);
+  
+  }
+  .details{
+    display: flex;
+   flex-wrap: nowrap;
+   padding-bottom: 30px;
+  }
+  .details1{
+    margin: 2px;
+    width: 50%;
+  }
+  p.bio {
+    margin: 15px 0px;
+  }
+  h1.name{
+    text-align: left;
+    color: darkblue;
+    font-weight: bold;
+  }
+  .l-box{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    padding-right: 4px;
+    background-color: rgba(43, 107, 226, 0.064);
+    border-color: rgba(137, 43, 226, 0.092);
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+    border-radius: 10px;
+    height: 22%;
+    font-size: 12px;
+  }
+ .l-img{
+  width:70px;
+ padding: 10px;
+ }
+  @media only screen and (max-width: 1024px) {
+    .self-img{
+      width: 100%;
+      }
+      .self{
+        width: 100%;
+      }
+  }
+  @media only screen and (max-width: 430px) {
+    .self{
+      flex-direction: column;
+      width: 100%;
+    }
+    .self1,.self2{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .self{
+      width: 100%;
+      
+    }
+    .l-box{
+      font-size: 10px;
+    }
+    .listItems{
+      overflow-y: hidden;
+    
+    }
+  }
+.listItems{
+  text-decoration: none;
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+  height: 25%;
+  font-size: 15px;
+}
+.l-head{
+  font-weight: bold;
+  font-size: 14px;
+}
+

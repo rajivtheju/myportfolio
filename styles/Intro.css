@@ -1,0 +1,67 @@
+.intro-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.logo2{
+    width: 100%;
+}
+.text-and-button,.image-section{
+    width: 50%;
+    align-content: center;
+}
+.name{
+    color: black;
+    font-size:30px ;
+    font-weight:bold;
+    font-family: roboto;
+   
+   
+}
+.res{
+    width: 150px;
+  /* padding: 10px; */
+  border-radius: 5px;
+  border-width: 0px;
+  /* border-color: darkblue; */
+  color: darkblue;
+  background-color: rgba(0, 0, 139, 0.827);
+    font-size: 20px;
+    /* margin-top: 30px; */
+}
+:hover.res{
+    border-width: 2px;
+    background-color: rgba(0, 0, 139, 0.099);
+  border-style: solid;
+    .res-text{
+        color: darkblue;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+.res-text{
+    color: white; 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.intro{
+    font-size: 15px;
+    font-family: "Roboto";
+  
+}
+@media only screen and (max-width: 768px) {
+
+    .text-and-button,.image-section{
+        width: 100%;
+        align-content: center;
+    }
+}
+.c-icon{
+    padding: 5px;
+    font-size: 35px;
+    border-radius: 50px;
+}
